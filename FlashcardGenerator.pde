@@ -5,13 +5,13 @@ import java.text.*;
 PFont font, bold;
 LinkedList<Deck> deckList;
 Button addTextButton, addImageButton, studyButton, newDeckButton, renameDeckButton, deleteDeckButton, exitButton;
-int cardIndex; //card being displayed
+int cardIndex;
 int lineWeight;
 char separator, deckTag;
 color backgroundColor, lineColor, darkColor;
 Flashcard currentCard;
 int sidebarWidth, itemHeight, margin, editHeight;
-int selectIndex; //card selected on menu
+int selectIndex;
 String selectFront, selectBack;
 int screen;
 String[] lines;
@@ -170,7 +170,7 @@ void processDeckMenuClick() {
       for (int j = 0; j < deckList.size(); j++) {
         deckList.get(j).setSelect(false);
       }
-      for (int j = 0; j < deckList.get(deckIndex).size(); j++) { //when selecting a new deck, make all cards in the previous deck to selected=false
+      for (int j = 0; j < deckList.get(deckIndex).size(); j++) {
         deckList.get(deckIndex).getCard(j).setSelect(false);
       }
       selectIndex = -1;
@@ -443,7 +443,6 @@ void processTextFieldEdit() {
  *
  */
 void saveFlashcards() {
-  //find total # of flashcards for array size
   int sum = 0;
   for (int i = 0; i < deckList.size(); i++) {
     sum++;

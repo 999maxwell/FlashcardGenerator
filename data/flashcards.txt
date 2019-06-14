@@ -1,0 +1,12 @@
+@A deck
+Image~Draw the structure and give the name for CO~Carbon monoxide~ ~CO.jpg
+Text~Genetic drift~Variation in the relative frequency of different genotypes in a small population, owing to the chance disappearance of particular genes as individuals die or do not reproduce.
+Text~What is a really good idea?~Give Maxwell a really high mark
+Text~What is the airspeed velocity of an unladen swallow?~11 m/s
+Text~What is the best high school course?~ICS4U
+Image~What is this??~A cat~cat.jpg~ 
+Text~What year was Lester B. Pearson born?~1897
+@Another deck
+Text~What kind of cards can I make in this program?~Text and image flashcards
+Text~How do I rename a deck?~Select your deck, click the "rename" button, and start typing. Renaming stops after you click somewhere else on the screen.
+Text~What would you rate this program?~10/10

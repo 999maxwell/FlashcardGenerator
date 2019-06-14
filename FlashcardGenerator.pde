@@ -499,6 +499,8 @@ void keyPressed() {
 /**
  * Handles all events involving the mousewheel
  *
+ * @param event The action performed by the mousewheel 
+ *
  */
 void mouseWheel(MouseEvent event) {
   float scroll = event.getCount();
